@@ -64,6 +64,11 @@ sub _build_term {
                 exclude_from_history    => 1,
                 method                  => sub { shift->exit_requested(1) },
             },
+			exit => {
+				alias                   => "quit",
+				exclude_from_completion => 1,
+				exclude_from_history    => 1,
+			},
             "history" => {
                 exclude_from_completion => 1,
                 exclude_from_history    => 1,
