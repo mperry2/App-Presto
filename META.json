@@ -1,7 +1,8 @@
 {
    "abstract" : "Command-line interface for RESTful web services",
    "author" : [
-      "Brian Phillips <bphillips@cpan.org>"
+      "Brian Phillips <bphillips@cpan.org>",
+      "Matt Perry <matt@mattperry.com> (current maintainer)"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 6.006, CPAN::Meta::Converter version 2.150001",
@@ -66,8 +67,8 @@
    "resources" : {
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/brianphillips/App-Presto.git",
-         "web" : "https://github.com/brianphillips/App-Presto"
+         "url" : "https://github.com/mperry2/App-Presto.git",
+         "web" : "https://github.com/mperry2/App-Presto"
       }
    },
    "version" : "0.010",

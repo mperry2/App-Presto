@@ -300,9 +300,10 @@ my hand at creating something a little more perlish.
 A big thank you to [Shutterstock Images](http://shutterstock.com) for
 allowing me to work on this on company time and release it to the CPAN.
 
-# AUTHOR
+# AUTHORS
 
-Brian Phillips <bphillips@cpan.org>
+- Brian Phillips <bphillips@cpan.org>
+- Matt Perry <matt@mattperry.com> (current maintainer)
 
 # COPYRIGHT AND LICENSE
 

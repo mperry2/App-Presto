@@ -8,7 +8,6 @@ Makefile.PL
 README
 README.mkdn
 bin/presto
-commitmsg
 dist.ini
 lib/App/Presto.pm
 lib/App/Presto/ArgProcessor.pm

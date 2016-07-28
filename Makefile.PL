@@ -8,7 +8,7 @@ use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Command-line interface for RESTful web services",
-  "AUTHOR" => "Brian Phillips <bphillips\@cpan.org>",
+  "AUTHOR" => "Brian Phillips <bphillips\@cpan.org>, Matt Perry <matt\@mattperry.com> (current maintainer)",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },

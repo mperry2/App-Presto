@@ -2,6 +2,7 @@
 abstract: 'Command-line interface for RESTful web services'
 author:
   - 'Brian Phillips <bphillips@cpan.org>'
+  - 'Matt Perry <matt@mattperry.com> (current maintainer)'
 build_requires:
   File::Basename: '0'
   File::Spec: '0'
@@ -43,7 +44,7 @@ requires:
   strict: '0'
   warnings: '0'
 resources:
-  repository: https://github.com/brianphillips/App-Presto.git
+  repository: https://github.com/mperry2/App-Presto.git
 version: '0.010'
 x_authority: cpan:MPERRY
 x_serialization_backend: 'YAML::Tiny version 1.69'

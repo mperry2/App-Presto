@@ -31,9 +31,19 @@ App::Presto::InstallableCommand - Role for command modules that can be installed
 
 version 0.010
 
-=head1 AUTHOR
+=head1 AUTHORS
+
+=over 4
+
+=item *
 
 Brian Phillips <bphillips@cpan.org>
+
+=item *
+
+Matt Perry <matt@mattperry.com> (current maintainer)
+
+=back
 
 =head1 COPYRIGHT AND LICENSE
 

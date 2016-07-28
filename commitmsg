@@ -1,5 +1,0 @@
-Fix failing tests due to Regexp::Common::balanced updates
-
-Updated code to account for the regex capture change introduced in
-Regexp::Common::balanced version 2013030901 where "$1 will always be set (to
-the entire matched substring), regardless whether {-keep} is used or not."
