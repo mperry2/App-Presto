@@ -4,7 +4,7 @@ package App::Presto::ArgProcessor;
 
 use strict;
 use warnings;
-use Regexp::Common qw(balanced);
+use Regexp::Common 2013030901 qw(balanced);
 use Moo;
 use File::Slurp qw(read_file);
 
@@ -65,7 +65,7 @@ sub _expand_param {
 	if($param =~ m/^(BODY|HEADER)\b(.*)/){
 		$replacement = $self->_expand_response_param($1,$2);
 	} elsif($param =~ m/^STASH($RE{balanced}{-parens => '[]'})(\/.*)?/){
-		my ($key, $dpath) = ($1, $2);
+		my ($key, $dpath) = ($2, $3);
 		$replacement = $self->stash(substr($key,1,-1));
 		if($dpath){
 			$replacement = _apply_dpath($replacement, $dpath)
