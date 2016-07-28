@@ -5,7 +5,7 @@ $App::Presto::ShellUI::VERSION = '0.010';
 
 use strict;
 use warnings;
-use Regexp::Common qw(balanced);
+use Regexp::Common 2013030901 qw(balanced);
 use Moo;
 use App::Presto::ArgProcessor;
 extends 'Term::ShellUI';
