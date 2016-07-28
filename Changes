@@ -1,6 +1,6 @@
 Changes file for App-Presto
 
-0.010     2016-07-28 01:33:02-07:00 America/Los_Angeles
+0.010     2016-07-28 01:33:39-07:00 America/Los_Angeles
 	- fix failing tests (RT Bug #115594)
 	- Add 'exit' command as an alias for 'quit'
 
