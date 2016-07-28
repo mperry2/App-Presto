@@ -38,7 +38,7 @@
             "Moo" : "0",
             "Moo::Role" : "0",
             "REST::Client" : "0",
-            "Regexp::Common" : "2113030901",
+            "Regexp::Common" : "2013030901",
             "Scalar::Util" : "0",
             "Term::ShellUI" : "0",
             "URI" : "0",
