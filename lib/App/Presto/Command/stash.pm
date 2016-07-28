@@ -1,11 +1,6 @@
 package App::Presto::Command::stash;
-BEGIN {
-  $App::Presto::Command::stash::AUTHORITY = 'cpan:BPHILLIPS';
-}
-{
-  $App::Presto::Command::stash::VERSION = '0.009';
-}
-
+our $AUTHORITY = 'cpan:MPERRY';
+$App::Presto::Command::stash::VERSION = '0.010';
 # ABSTRACT: REST stash-related commands
 
 use Moo;
@@ -49,7 +44,10 @@ sub help_categories {
 1;
 
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -57,7 +55,7 @@ App::Presto::Command::stash - REST stash-related commands
 
 =head1 VERSION
 
-version 0.009
+version 0.010
 
 =head1 AUTHOR
 
@@ -65,10 +63,9 @@ Brian Phillips <bphillips@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Brian Phillips and Shutterstock Images (http://shutterstock.com).
+This software is copyright (c) 2016 by Brian Phillips and Shutterstock Images (http://shutterstock.com).
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

@@ -1,11 +1,6 @@
 package App::Presto::Client::ContentHandlers::HTML;
-BEGIN {
-  $App::Presto::Client::ContentHandlers::HTML::AUTHORITY = 'cpan:BPHILLIPS';
-}
-{
-  $App::Presto::Client::ContentHandlers::HTML::VERSION = '0.009';
-}
-
+our $AUTHORITY = 'cpan:MPERRY';
+$App::Presto::Client::ContentHandlers::HTML::VERSION = '0.010';
 # ABSTRACT: Handles deserializing of HTML responses
 
 use Moo;
@@ -36,7 +31,10 @@ sub can_serialize { 0 }
 1;
 
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -44,7 +42,7 @@ App::Presto::Client::ContentHandlers::HTML - Handles deserializing of HTML respo
 
 =head1 VERSION
 
-version 0.009
+version 0.010
 
 =head1 AUTHOR
 
@@ -52,10 +50,9 @@ Brian Phillips <bphillips@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Brian Phillips and Shutterstock Images (http://shutterstock.com).
+This software is copyright (c) 2016 by Brian Phillips and Shutterstock Images (http://shutterstock.com).
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

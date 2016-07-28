@@ -4,7 +4,7 @@
       "Brian Phillips <bphillips@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 6.006, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,12 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
@@ -46,11 +51,14 @@
       "test" : {
          "requires" : {
             "File::Basename" : "0",
-            "File::Find" : "0",
-            "File::Temp" : "0",
+            "File::Spec" : "0",
             "HTTP::Headers" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
             "Test::MockObject" : "0",
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "blib" : "1.01",
+            "perl" : "5.006"
          }
       }
    },
@@ -62,7 +70,8 @@
          "web" : "https://github.com/brianphillips/App-Presto"
       }
    },
-   "version" : "0.009",
-   "x_authority" : "cpan:BPHILLIPS"
+   "version" : "0.010",
+   "x_authority" : "cpan:MPERRY",
+   "x_serialization_backend" : "JSON::XS version 3.01"
 }
 
