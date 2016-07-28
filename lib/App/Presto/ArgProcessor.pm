@@ -66,7 +66,7 @@ sub _expand_param {
 	if($param =~ m/^(BODY|HEADER)\b(.*)/){
 		$replacement = $self->_expand_response_param($1,$2);
 	} elsif($param =~ m/^STASH($RE{balanced}{-parens => '[]'})(\/.*)?/){
-		my ($key, $dpath) = ($2, $3);
+		my ($key, $dpath) = ($1, $2);
 		$replacement = $self->stash(substr($key,1,-1));
 		if($dpath){
 			$replacement = _apply_dpath($replacement, $dpath)
